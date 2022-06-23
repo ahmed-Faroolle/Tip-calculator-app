@@ -71,6 +71,7 @@ body{
 }
 
 .cards{
+    flex-grow: 1;
     background-color: var(--neutral__white);
     display: grid;
     grid-template-columns: 1fr;
@@ -259,6 +260,7 @@ label{
         -moz-column-gap: 30px;
              column-gap: 30px;
         padding: 30px;
+        flex-grow: 0;
     }
 
     .checkboxes__grid{
