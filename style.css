@@ -15,7 +15,7 @@
 }
 
 html{
-    font-size: 16px;
+    font-size: 14px;
 }
 
 body{
@@ -35,10 +35,14 @@ body{
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
     max-width: 880px;
     width: 100%;
     margin: 0 auto;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .row{
@@ -63,14 +67,14 @@ body{
     font-weight: 400;
     text-transform: uppercase;
     color: var(--neutral__very__dark__cyan);
-    padding: 30px;
+    padding: 1.8rem;
 }
 
 .cards{
     background-color: var(--neutral__white);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr;
     row-gap: 1.8rem;
     padding: 30px;
     border-radius: 30px;
@@ -170,13 +174,14 @@ label{
 
 .error{
     color: red;
+    text-align: right;
 }
 
 .row__2{
     background-color: var(--neutral__very__dark__cyan);
     color: var(--strong__cyan);
     padding: 18px 10px;
-    max-height: 60%;
+    /* max-height: 60%; */
     justify-content: space-between;
     border-radius: 18px;
     -webkit-border-radius: 18px;
@@ -192,6 +197,7 @@ label{
 
 .tip__calc{
     justify-content: space-between;
+    align-items: center;
 }
 
 .tip__amount__text{
@@ -237,6 +243,11 @@ label{
 .attribution a { color: var(--neutral__dark__grayish__cyan); }
 .attribution a:hover { color: var(--neutral__very__dark__cyan); }
 
+@media screen and (min-width: 370px){
+    html{
+        font-size: 16px;
+    }
+}
 @media screen and (min-width: 780px){
     .cards{
         background-color: var(--neutral__white);
