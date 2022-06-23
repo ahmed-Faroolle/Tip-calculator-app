@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+
+  <!-- Bill
+
+  Select Tip %
+  5%
+  10%
+  15%
+  25%
+  50%
+  Custom
+
+  Number of People
+
+  Tip Amount
+  / person
+
+  Total
+  / person
+
+  Reset -->
+
+
+  <div class="container column">
+    <div class="header__text">
+      <h2>Spli <br> tter</h2>
+    </div>
+    <div class="cards">
+      <div class="imfaroole__row row__1 grid__column">
+        <div class="column bill col">
+          <div class="field__text row">
+            <label for="bill">Bill</label>
+            <span class="error">Can't be zero</span>
+          </div>
+          <input type="number" name="bill" id="bill" placeholder="0">
+        </div>
+        <div class="tip__precent col">
+          <span class="select__tip">Select Tip %</span>
+          <div class="checkboxes__grid">
+            <input type="submit" name="fiveprecent" id="fiveprecent">
+            <label for="fiveprecent" class="check__box" data-precent="5">5%</label>
+    
+            <input type="submit" name="tenprecent" id="tenprecent">
+            <label for="tenprecent" class="check__box" data-precent="10">10%</label>
+            
+            <input type="submit" name="fifteenprecent" id="fifteenprecent">
+            <label for="fifteenprecent" class="check__box" data-precent="15">15%</label>
+    
+            <input type="submit" name="twentyfiveprecent" id="twentyfiveprecent">
+            <label for="twentyfiveprecent" class="check__box" data-precent="25">25%</label>
+    
+            <input type="submit" name="fiftyprecent" id="fiftyprecent">
+            <label for="fiftyprecent" class="check__box" data-precent="50">50%</label>
+    
+            <input type="number" name="custom" class="check__box custom" placeholder="Custom">
+          </div>
+        </div>
+        <div class="column number__of__people col">
+
+          <div class="field__text row">
+            <label for="n__people">Number of People</label>
+            <span class="error">Can't be zero</span>
+          </div>
+          <input type="number" name="number__of__people" id="n__people" placeholder="0">
+        </div>
+      </div>
+      <div class="imfaroole__row row__2 column">
+        <div class="tip__amount tip__calc row">
+          <p class="tip__amount__text">Tip Amount <br><span>/ person</span></p>
+          <h2 class="tip__amount__num tip__per__person">$0.00</h2>
+        </div>
+        <div class="total__tip row tip__calc">
+          <p class="tip__amount__text">Total Bill</p>
+          <h2 class="tip__amount__num total__bill">$0.00</h2>
+        </div>
+        <div class="btn__wrapper">
+          <button class="btn reset__btn">Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">imfaroolle</a>.
+  </div> -->
+</body>
+</html>
