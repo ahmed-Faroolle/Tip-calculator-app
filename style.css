@@ -42,7 +42,6 @@ body{
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
 .row{
@@ -250,6 +249,9 @@ label{
     }
 }
 @media screen and (min-width: 780px){
+    .container{
+        height: 100vh;
+    }
     .cards{
         background-color: var(--neutral__white);
         display: grid;
