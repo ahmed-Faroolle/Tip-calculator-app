@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [imfaroolle Tip calculator](https://imfaroolletipcalculatorapp.netlify.app/)
+- Live Site URL: [imfaroolle Tip calculator](https://imfaroolle-tip-calculator-app.netlify.app/)
 
 ## My process
 
