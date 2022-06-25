@@ -12,8 +12,6 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -44,5 +42,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.imfaroolle.com)
-- Twitter - [@yourusername](https://twitter.com/a_faroole)
+- Website - [imfaroolle](https://www.imfaroolle.com)
+- Twitter - [@a_faroole](https://twitter.com/a_faroole)
